@@ -22,7 +22,7 @@ public class SumFound {
         int sum = 0;
         for (int i = 0; i < list.size(); i++) {
             for (int j = i + 1; j < list.size(); j++) {
-                sum = Integer.parseInt(list.get(i)) + Integer.parseInt(list.get(j));
+                sum = (Integer)list.get(i) + (Integer)list.get(j);
                 if (sum == k) {
                     return true;
                 }
