@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14b8077e-00d8-47f5-a615-5b297e66cbbe" name="Default Changelist" comment="" />
+    <list default="true" id="14b8077e-00d8-47f5-a615-5b297e66cbbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/PowerSet1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/PowerSet1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FindElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SubsetSumBruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SubsetSumBruteForce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SumFound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SumFound.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +25,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +36,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1arB4InwS88xVufrZyTgoojlM8H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,6 +45,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="public" />
@@ -45,7 +61,7 @@
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Application" />
-      <module name="Assignment1A" />
+      <module name="Problems" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,6 +89,9 @@
       <workItem from="1587492562620" duration="759000" />
       <workItem from="1587500809831" duration="1472000" />
       <workItem from="1587504036856" duration="520000" />
+      <workItem from="1587504869622" duration="963000" />
+      <workItem from="1587505860820" duration="1312000" />
+      <workItem from="1587507843341" duration="683000" />
     </task>
     <servers />
   </component>
@@ -80,13 +99,51 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587493002369">
-      <screen x="0" y="23" width="1440" height="820" />
+    <state x="396" y="115" key="#Application" timestamp="1587505742032">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="396" y="115" key="#Application/0.0.1440.900@0.0.1440.900" timestamp="1587505742032" />
+    <state x="184" y="79" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587505763927">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="79" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1587505763927" />
     <state x="184" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.820@0.23.1440.820" timestamp="1587493002369" />
-    <state x="208" y="23" width="1024" height="820" key="SettingsEditor" timestamp="1587486049033">
-      <screen x="0" y="23" width="1440" height="820" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1587508571283">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587508571283" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1587508571282">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587508571282" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1587508571281">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587508571281" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1587508571283">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587508571283" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1587508528862">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587508528862" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1587508528861">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1587508528861" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1587508528860">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1587508528860" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1587508528861">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1587508528861" />
+    <state x="208" y="0" width="1024" height="820" key="SettingsEditor" timestamp="1587505577050">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587505577050" />
     <state x="208" y="23" width="1024" height="820" key="SettingsEditor/0.23.1440.820@0.23.1440.820" timestamp="1587486049033" />
     <state x="458" y="193" key="extract.method.dialog" timestamp="1587492741370">
       <screen x="0" y="23" width="1440" height="820" />
@@ -96,5 +153,16 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="378" y="190" width="683" height="486" key="find.popup/0.23.1440.820@0.23.1440.820" timestamp="1587485721584" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FindElement.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
