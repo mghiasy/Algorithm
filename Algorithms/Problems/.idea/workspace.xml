@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="14b8077e-00d8-47f5-a615-5b297e66cbbe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GenerateSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GenerateSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GenerateSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GenerateSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +86,8 @@
       <workItem from="1587507843341" duration="873000" />
       <workItem from="1587510677829" duration="901000" />
       <workItem from="1587512490977" duration="1787000" />
-      <workItem from="1587514355977" duration="576000" />
+      <workItem from="1587514355977" duration="1583000" />
+      <workItem from="1587528969611" duration="912000" />
     </task>
     <servers />
   </component>
@@ -156,14 +154,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/GenerateSequence.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Application.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="13" />
+          <line>18</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
