@@ -88,6 +88,8 @@
       <workItem from="1587512490977" duration="1787000" />
       <workItem from="1587514355977" duration="1583000" />
       <workItem from="1587528969611" duration="912000" />
+      <workItem from="1587532216102" duration="104000" />
+      <workItem from="1587532389481" duration="104000" />
     </task>
     <servers />
   </component>
@@ -145,9 +147,10 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="458" y="193" key="extract.method.dialog/0.23.1440.820@0.23.1440.820" timestamp="1587492741370" />
-    <state x="378" y="190" width="683" height="486" key="find.popup" timestamp="1587485721584">
-      <screen x="0" y="23" width="1440" height="820" />
+    <state x="378" y="183" width="683" height="534" key="find.popup" timestamp="1587532409238">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="378" y="183" width="683" height="534" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1587532409238" />
     <state x="378" y="190" width="683" height="486" key="find.popup/0.23.1440.820@0.23.1440.820" timestamp="1587485721584" />
   </component>
   <component name="XDebuggerManager">
