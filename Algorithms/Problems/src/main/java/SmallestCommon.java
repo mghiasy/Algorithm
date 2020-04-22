@@ -35,5 +35,7 @@ public class SmallestCommon {
             }
         }
         return x*y/gcd;
+        //with recursive : return gcd(a-b, b);
+
     }
 }
