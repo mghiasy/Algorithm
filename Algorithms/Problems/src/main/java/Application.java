@@ -15,6 +15,8 @@ public class Application {
         System.out.println("Second smallest result : " +SecondSmallest.secondSmallest(array));
         int[] sortedArray ={2,3,6,12,18,20};
         System.out.println("FindElement result : " +FindElement.find(sortedArray,11));
+        long sequence=GenerateSequence.generate(5);
+        System.out.println("Generate sequence result : " + sequence);
 
     }
 }

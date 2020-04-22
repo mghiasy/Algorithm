@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14b8077e-00d8-47f5-a615-5b297e66cbbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/PowerSet1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/PowerSet1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FindElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SubsetSumBruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SubsetSumBruteForce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SumFound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SumFound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GenerateSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GenerateSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GenerateSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GenerateSequence.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +86,10 @@
       <workItem from="1587504036856" duration="520000" />
       <workItem from="1587504869622" duration="963000" />
       <workItem from="1587505860820" duration="1312000" />
-      <workItem from="1587507843341" duration="683000" />
+      <workItem from="1587507843341" duration="873000" />
+      <workItem from="1587510677829" duration="901000" />
+      <workItem from="1587512490977" duration="1787000" />
+      <workItem from="1587514355977" duration="576000" />
     </task>
     <servers />
   </component>
@@ -108,38 +106,38 @@
     </state>
     <state x="184" y="79" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1587505763927" />
     <state x="184" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.820@0.23.1440.820" timestamp="1587493002369" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1587508571283">
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1587515045754">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587508571283" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1587508571282">
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587515045754" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1587515045753">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587508571282" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1587508571281">
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587515045753" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1587515045752">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587508571281" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1587508571283">
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587515045752" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1587515045753">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587508571283" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1587508528862">
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587515045753" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1587515045756">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587508528862" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1587508528861">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587515045756" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1587515045755">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1587508528861" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1587508528860">
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1587515045755" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1587515045754">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1587508528860" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1587508528861">
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1587515045754" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1587515045755">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1587508528861" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1587515045755" />
     <state x="208" y="0" width="1024" height="820" key="SettingsEditor" timestamp="1587505577050">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -158,9 +156,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/FindElement.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/src/main/java/GenerateSequence.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Application.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
