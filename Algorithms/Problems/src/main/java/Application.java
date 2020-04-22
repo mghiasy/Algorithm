@@ -18,5 +18,7 @@ public class Application {
         long sequence=GenerateSequence.generate(5);
         System.out.println("Generate sequence result : " + sequence);
 
+        System.out.println("LCM ="+SmallestCommon.smallestCommon(10,12));
+
     }
 }
