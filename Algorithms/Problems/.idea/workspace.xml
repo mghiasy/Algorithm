@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="14b8077e-00d8-47f5-a615-5b297e66cbbe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SmallestCommon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SmallestCommon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GenerateSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GenerateSequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SmallestCommon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SmallestCommon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Sort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PowerSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PowerSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +94,8 @@
       <workItem from="1587588630327" duration="661000" />
       <workItem from="1587591411448" duration="1794000" />
       <workItem from="1587593227277" duration="1743000" />
-      <workItem from="1587595084599" duration="836000" />
+      <workItem from="1587595084599" duration="1637000" />
+      <workItem from="1587596895875" duration="873000" />
     </task>
     <servers />
   </component>
@@ -166,16 +162,5 @@
     </state>
     <state x="378" y="183" width="683" height="534" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1587532409238" />
     <state x="378" y="190" width="683" height="486" key="find.popup/0.23.1440.820@0.23.1440.820" timestamp="1587485721584" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/SmallestCommon.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
