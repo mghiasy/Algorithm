@@ -20,6 +20,8 @@ public class Application {
 
         System.out.println("LCM ="+SmallestCommon.smallestCommon(10,12));
         System.out.println("Log 64 base 2 ="+LogCalc.calcLog(64));
-
+        int[] array1 ={2,3,4,6,12,14};
+        int[] array2 ={5,8,15,16};
+        System.out.println("Merged array : "+ Merge.merge(array1,array2));
     }
 }
