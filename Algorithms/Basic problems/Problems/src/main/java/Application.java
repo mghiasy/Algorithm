@@ -19,6 +19,7 @@ public class Application {
         System.out.println("Generate sequence result : " + sequence);
 
         System.out.println("LCM ="+SmallestCommon.smallestCommon(10,12));
+        System.out.println("Log 64 base 2 ="+LogCalc.calcLog(64));
 
     }
 }
