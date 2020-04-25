@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f63d9105-f2cb-4817-a576-5ceb4c75c63a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sortroutines/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sortroutines/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +80,8 @@
       <workItem from="1587698925782" duration="6000" />
       <workItem from="1587699071147" duration="142000" />
       <workItem from="1587786783992" duration="498000" />
-      <workItem from="1587787588061" duration="6000" />
+      <workItem from="1587787588061" duration="127000" />
+      <workItem from="1587787803990" duration="272000" />
     </task>
     <servers />
   </component>
