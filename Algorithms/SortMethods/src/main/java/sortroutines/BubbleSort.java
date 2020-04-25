@@ -1,22 +1,28 @@
 package sortroutines;
 
+import java.util.List;
+
 public class BubbleSort {
-    public int[] bubbleSort(int[] arr){
-        for(int i=0;i<arr.length;++i){
+    public static List<Integer> bubbleSort(List<Integer> arr){
+        for(int i=0;i<arr.size();++i){
             //with every loop latest not sorted element will be sort
             //since i last elements are sorted => no need to check them
-            //for(int j=0;j<arr.length-1;++j){
-            for(int j=0;j<arr.length-i-1;++j){
-                if(arr[i]>arr[j]){
+            boolean swapped = false;
+            for(int j=0;j<arr.size()-i-1;++j){
+                if(arr.get(i)>arr.get(j)){
                     swap(arr,j,j+1);
+                    swapped= true;
                 }
+                if(swapped == false)
+                    break;
             }
         }
         return arr;
     }
-    public void swap(int[] arr,int i, int j){
-        int temp= arr[i];
-        arr[i]=arr[j];
-        arr[j]=temp;
+    public static void swap(List<Integer> arr,int i, int j){
+        int temp= arr.get(i);
+        arr.set(arr.get(j),i);
+        arr.set(temp,j);
     }
 }
+

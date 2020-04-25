@@ -1,3 +1,5 @@
+
+
 import java.util.*;
 
 public class Application {
@@ -23,5 +25,7 @@ public class Application {
         int[] array1 ={2,3,4,6,12,14};
         int[] array2 ={5,8,15,16};
         System.out.println("Merged array : "+ Merge.merge(array1,array2));
+
+        System.out.println("Sort with treeSet: "+ TreeSetSorting.treeSetSorting(array));
     }
 }

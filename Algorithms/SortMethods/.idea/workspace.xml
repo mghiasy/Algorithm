@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f63d9105-f2cb-4817-a576-5ceb4c75c63a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sortroutines/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic problems/Problems/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic problems/Problems/src/main/java/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sortroutines/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sortroutines/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sortroutines/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sortroutines/BubbleSort.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +56,33 @@
       <recent name="$PROJECT_DIR$/src/main/java/sortroutines" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SortTester (1)">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sortroutines.Application" />
+      <module name="SortMethods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sortroutines.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortTester (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="runtime.SortTester" />
+      <module name="SortMethods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runtime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SortTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SortTester" />
       <module name="SortMethods" />
@@ -62,6 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortTester (1)" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="Application.SortTester" />
       </list>
     </recent_temporary>
@@ -81,7 +113,9 @@
       <workItem from="1587699071147" duration="142000" />
       <workItem from="1587786783992" duration="498000" />
       <workItem from="1587787588061" duration="127000" />
-      <workItem from="1587787803990" duration="272000" />
+      <workItem from="1587787803990" duration="1423000" />
+      <workItem from="1587791777614" duration="165000" />
+      <workItem from="1587793798888" duration="453000" />
     </task>
     <servers />
   </component>
@@ -93,21 +127,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1587690856560" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1587691021959">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="211" key="GridCell.Tab.0.bottom" timestamp="1587789400000">
+      <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587691021959" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1587691021958">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="211" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1587789400000" />
+    <state width="1398" height="211" key="GridCell.Tab.0.center" timestamp="1587789399999">
+      <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587691021958" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1587691021957">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="211" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1587789399999" />
+    <state width="1398" height="211" key="GridCell.Tab.0.left" timestamp="1587789399999">
+      <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587691021957" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1587691021958">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="211" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1587789399999" />
+    <state width="1398" height="211" key="GridCell.Tab.0.right" timestamp="1587789400000">
+      <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587691021958" />
+    <state width="1398" height="211" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1587789400000" />
   </component>
 </project>
