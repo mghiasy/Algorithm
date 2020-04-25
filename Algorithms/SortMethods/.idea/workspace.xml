@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f63d9105-f2cb-4817-a576-5ceb4c75c63a" name="Default Changelist" comment="" />
+    <list default="true" id="f63d9105-f2cb-4817-a576-5ceb4c75c63a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/sortroutines/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sortroutines/BubbleSort.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +16,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +27,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1axwAT69DiC1m4BaUYrdTElbnV8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -73,6 +79,7 @@
       <workItem from="1587698925782" duration="6000" />
       <workItem from="1587699071147" duration="142000" />
       <workItem from="1587786783992" duration="498000" />
+      <workItem from="1587787588061" duration="6000" />
     </task>
     <servers />
   </component>
