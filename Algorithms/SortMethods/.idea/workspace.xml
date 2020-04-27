@@ -2,12 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f63d9105-f2cb-4817-a576-5ceb4c75c63a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sortroutines/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic problems/Problems/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic problems/Problems/src/main/java/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/src/main/java/FindElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/src/main/java/GenerateSequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/src/main/java/LogCalc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/src/main/java/Merge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/src/main/java/PowerSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/src/main/java/SecondSmallest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/src/main/java/SmallestCommon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/src/main/java/Sort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/src/main/java/SubsetSumBruteForce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/src/main/java/SumFound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/src/main/java/TreeSetSorting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/target/classes/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic problems/Problems/target/classes/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/target/classes/FindElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/target/classes/GenerateSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/target/classes/LogCalc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/target/classes/Merge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/target/classes/PowerSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/target/classes/SecondSmallest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/target/classes/SmallestCommon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/target/classes/Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/target/classes/SubsetSumBruteForce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/target/classes/SumFound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic problems/Problems/target/classes/TreeSetSorting.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sortroutines/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sortroutines/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sortroutines/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sortroutines/BubbleSort.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +135,10 @@
       <workItem from="1587787588061" duration="127000" />
       <workItem from="1587787803990" duration="1423000" />
       <workItem from="1587791777614" duration="165000" />
-      <workItem from="1587793798888" duration="453000" />
+      <workItem from="1587793798888" duration="500000" />
+      <workItem from="1587826821764" duration="107000" />
+      <workItem from="1587961932023" duration="598000" />
+      <workItem from="1587963878471" duration="8000" />
     </task>
     <servers />
   </component>
