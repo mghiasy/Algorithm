@@ -11,7 +11,7 @@ public class LinkedListDS {
             data = d;
         }
     }
-    public int reverseLinkedList(){
+    public void reverseLinkedList(){
         Node prev=null;
         Node current= head;
         Node next=null;
