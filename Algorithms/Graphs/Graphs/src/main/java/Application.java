@@ -1,5 +1,6 @@
 import Graphs.Graph;
 import Graphs.Pair;
+import Graphs.Vertex;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +25,23 @@ public class Application {
         System.out.println("spanning tree:");
         System.out.println(tree);
 
+
+		boolean found1 = g.pathExists(new Vertex("A"), new Vertex("F"));
+		boolean found2 = g.pathExists(new Vertex("A"), new Vertex("C"));
+		System.out.println(found1);
+		System.out.println(found2);
+
+		boolean isConnected = g.isConnected();
+		System.out.println(isConnected);
+
+		boolean hasCycle = g.hasCycle();
+		System.out.println(hasCycle);
+
+		System.out.println(g);
+		System.out.println(g.shortestPathLength(new Vertex("A"), new Vertex("E")));
+
+//		boolean isSimpleCycle = g.isSimpleCycle();
+//		System.out.println(isSimpleCycle);
 
     }
 }

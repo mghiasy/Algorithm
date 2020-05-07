@@ -176,10 +176,12 @@ public class Graph {
 		}
 		return copy;
 	}
-	
+
 	public boolean areAdjacent(Vertex v, Vertex w) {
-		//implement
-		return false;
+		//with checking adjList hashMap
+		LinkedList<Vertex> l = adjList.get(v);
+		if (l == null) return false;
+		return l.contains(w);
 	}
 	
 	public String toString() {

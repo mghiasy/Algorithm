@@ -1,9 +1,9 @@
-package BFS;
+package DFS;
 
 import Graphs.Graph;
 import Graphs.Vertex;
 
-public class PathExists extends BreadthFirstSearch {
+public class PathExists extends DepthFirstSearch {
 	private Vertex target;
 	private boolean pathFound = false;
 	private int numComponents = 0;
