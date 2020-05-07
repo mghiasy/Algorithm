@@ -1,4 +1,8 @@
+package Graphs;
+
+
 public class Edge {
+	//contains of two Vertex
 	Vertex u;
 	Vertex v;
 	public Edge(Vertex u, Vertex v) {
@@ -20,6 +24,7 @@ public class Edge {
 		return result;
 	}
 	@Override
+	//for represent : (u,v) => An edge from u--v
 	public String toString() {
 		return "(" + u.toString() + ", " + v.toString() + ")";
 	}
