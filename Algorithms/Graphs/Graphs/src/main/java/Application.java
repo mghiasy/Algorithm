@@ -1,4 +1,5 @@
-package Graphs;
+import Graphs.Graph;
+import Graphs.Pair;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,6 +19,10 @@ public class Application {
 
         Graph g = new Graph(l);
         System.out.println(g);
+
+        Graph tree = g.computeSpanningTree();
+        System.out.println("spanning tree:");
+        System.out.println(tree);
 
 
     }
