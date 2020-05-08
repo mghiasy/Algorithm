@@ -5,6 +5,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
+
 import Graphs.Edge;
 import Graphs.Graph;
 import Graphs.Vertex;
@@ -17,7 +18,7 @@ import Graphs.Vertex;
  * is read at most once, and (2) in the adjacency
  * list, each vertex adjacent to a given vertex is read at most
  * twice.
- *
+ * <p>
  * (1) is accomplished as follows: We maintain an iterator for
  * graph.vertices. This iterator is consulted only at the beginning
  * of each componentLoop. The iterator will need to move through
@@ -30,7 +31,7 @@ import Graphs.Vertex;
  * iterator points to postiion k1+1. To find the next unvisited
  * vertex, it is not necessary to examine positions 0 to k1 again
  * -- they are all visited. Continues like this.
- *
+ * <p>
  * (2) is accomplished by ensuring that a given edge (v,w) is
  * never examined more than two times. One time happens when
  * the list of adjacent vertices for v is searched for an
@@ -44,149 +45,156 @@ import Graphs.Vertex;
  * on position 0 of the list.
  *
  * @author paul_corazza
- *
  */
 public class DepthFirstSearch {
 
-	protected HashMap<Vertex, Vertex> visitedVertices =
-		new HashMap<Vertex, Vertex>();
-	Graph graph;
-	Stack<Vertex> stack;
-	List<Vertex> vertices = null;
-	Iterator<Vertex> iterator = null;
-	HashMap<Vertex,LinkedList<Vertex>> adjacencyList;
-	protected int numVertices;
-	public DepthFirstSearch(Graph graph){
-		stack = new Stack<Vertex>();
-		this.graph=graph;
-		vertices =graph.vertices();
-		iterator = vertices.iterator();
-		numVertices = vertices.size();
-		//this is a copy, so we can modify it - O(n+m) to acquire this
-		adjacencyList = graph.getAdjacencyList();
-	}
-	
-	public void start(){
-		
-		while(someVertexUnvisited()) {	
-			//picks an unvisited vertex and marks it
-			handleInitialVertex();		
-			
-			singleComponentLoop();	
-			
-			//performs necessary processing (for subclasses) between completions 
-			//of successive components
-			additionalProcessing();
-		}
-	}
-	//for the case where we want to specify start vertex
-	public void start(Vertex s){
-		do {
-			if(!getHasBeenVisited(s)) {
-				handleInitialVertex(s);
-			} else handleInitialVertex();
-			
-			singleComponentLoop();	
-			
-			//performs necessary processing (for subclasses) between completions 
-			//of successive components
-			additionalProcessing();
-		} while(someVertexUnvisited());
-	}
-	
-	protected void resetVisitedVertices() {
-		visitedVertices.clear();
-	}
-	protected void resetVertexIterator() {
-		iterator = vertices.iterator();
-	}
+    protected HashMap<Vertex, Vertex> visitedVertices =
+            new HashMap<Vertex, Vertex>();
+    Graph graph;
+    Stack<Vertex> stack;
+    List<Vertex> vertices = null;
+    Iterator<Vertex> iterator = null;
+    HashMap<Vertex, LinkedList<Vertex>> adjacencyList;
+    protected int numVertices;
 
-	
-	protected boolean someVertexUnvisited(){
-		return visitedVertices.size() < numVertices;
-	}
+    public DepthFirstSearch(Graph graph) {
+        stack = new Stack<Vertex>();
+        this.graph = graph;
+        vertices = graph.vertices();
+        iterator = vertices.iterator();
+        numVertices = vertices.size();
+        //this is a copy, so we can modify it - O(n+m) to acquire this
+        adjacencyList = graph.getAdjacencyList();
+    }
 
-	
-	protected void additionalProcessing() {
-		//by default do nothing
-	}
+    public void start() {
 
-	//inserts an initial vertex into the stack as preparation for
-	//dfs for this component
-	protected void handleInitialVertex() {
-		Vertex v = nextUnvisited();
-		handleInitialVertex(v);
+        while (someVertexUnvisited()) {
+            //picks an unvisited vertex and marks it
+            handleInitialVertex();
 
-	}
-	protected void handleInitialVertex(Vertex v) {
-		if(v != null){
-			setHasBeenVisited(v);
-			processVertex(v);
-			stack.push(v);
-		}
-	}
-	//search for deeper nodes and backtrack, in a loop
-	//starts on  a new component after a component has been completely visited
-	protected void singleComponentLoop() {
-		while(!stack.isEmpty()){
-			Vertex v = nextUnvisitedAdjacent(stack.peek());
+            singleComponentLoop();
 
-			if(v==null) stack.pop();
-			else {
-				setHasBeenVisited(v);
-				processEdge(new Edge(stack.peek(),v));
-				processVertex(v);
-				stack.push(v);
-			}
-		}
-	}
-	protected void processEdge(Edge e) {
-		//override for needed functionality
-	}
+            //performs necessary processing (for subclasses) between completions
+            //of successive components
+            additionalProcessing();
+        }
+    }
 
-	public boolean getHasBeenVisited(Vertex v) {
-		return visitedVertices.containsKey(v);
-	}
-	public void setHasBeenVisited(Vertex v) {
-		visitedVertices.put(v,v);
-	}
+    //for the case where we want to specify start vertex
+    public void start(Vertex s) {
+        do {
+            if (!getHasBeenVisited(s)) {
+                handleInitialVertex(s);
+            } else handleInitialVertex();
+
+            singleComponentLoop();
+
+            //performs necessary processing (for subclasses) between completions
+            //of successive components
+            additionalProcessing();
+        } while (someVertexUnvisited());
+    }
+
+    protected void resetVisitedVertices() {
+        visitedVertices.clear();
+    }
+
+    protected void resetVertexIterator() {
+        iterator = vertices.iterator();
+    }
 
 
-	protected void processVertex(Vertex w){
+    protected boolean someVertexUnvisited() {
+        return visitedVertices.size() < numVertices;
+    }
 
-		//should be overridden; by default, do nothing
-	}
-	public Vertex nextUnvisited() {
-		while(iterator.hasNext()){
-			Vertex next = iterator.next();
-			if(!visitedVertices.containsKey(next)){
-				return next;
 
-			}
-		}
-		return null;
-	}
-	public Vertex nextUnvisitedAdjacent(Vertex v) {
-		List<Vertex> listOfAdjacent = adjacencyList.get(v);
-		Iterator<Vertex> it = listOfAdjacent.iterator();
-		Vertex retVert = null;
-		//this loop will execute only once for each vertex v
-		//since whenever a vertex is encountered, it is removed after processing
-		while(it.hasNext()) {
-			Vertex u = it.next();
-			if(visitedVertices.containsKey(u)) {
-				it.remove();
-			}
-			if(!visitedVertices.containsKey(u)) {
-				retVert = u;
-				it.remove();
-				return retVert;
-			}
-		}
-		//unvisited adjacent vertex not found
-		return retVert;  //returning null
-	}
+    protected void additionalProcessing() {
+        //by default do nothing
+    }
 
+    //inserts an initial vertex into the stack as preparation for
+    //dfs for this component
+    protected void handleInitialVertex() {
+        Vertex v = nextUnvisited();
+        handleInitialVertex(v);
+
+    }
+
+    protected void handleInitialVertex(Vertex v) {
+        if (v != null) {
+            setHasBeenVisited(v);
+            processVertex(v);
+            stack.push(v);
+        }
+    }
+
+    //search for deeper nodes and backtrack, in a loop
+    //starts on  a new component after a component has been completely visited
+    protected void singleComponentLoop() {
+        while (!stack.isEmpty()) {
+            Vertex v = nextUnvisitedAdjacent(stack.peek());
+
+            if (v == null) stack.pop();
+            else {
+                setHasBeenVisited(v);
+                processEdge(new Edge(stack.peek(), v));
+                processVertex(v);
+                stack.push(v);
+            }
+        }
+    }
+
+    protected void processEdge(Edge e) {
+        //override for needed functionality
+    }
+
+    public boolean getHasBeenVisited(Vertex v) {
+        return visitedVertices.containsKey(v);
+    }
+
+    public void setHasBeenVisited(Vertex v) {
+        visitedVertices.put(v, v);
+    }
+
+
+    protected void processVertex(Vertex w) {
+
+        //should be overridden; by default, do nothing
+    }
+
+    public Vertex nextUnvisited() {
+        while (iterator.hasNext()) {
+            Vertex next = iterator.next();
+            if (!visitedVertices.containsKey(next)) {
+                return next;
+
+            }
+        }
+        return null;
+    }
+
+    public Vertex nextUnvisitedAdjacent(Vertex v) {
+        List<Vertex> listOfAdjacent = adjacencyList.get(v);
+        Iterator<Vertex> it = listOfAdjacent.iterator();
+        Vertex retVert = null;
+        //this loop will execute only once for each vertex v
+        //since whenever a vertex is encountered, it is removed after processing
+        while (it.hasNext()) {
+            Vertex u = it.next();
+            if (visitedVertices.containsKey(u)) {
+                it.remove();
+            }
+            if (!visitedVertices.containsKey(u)) {
+                retVert = u;
+                it.remove();
+                return retVert;
+            }
+        }
+        //unvisited adjacent vertex not found
+        return retVert;  //returning null
+    }
 
 
 }
