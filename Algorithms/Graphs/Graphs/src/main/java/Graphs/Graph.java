@@ -1,9 +1,6 @@
 package Graphs;
 
-import BFS.FindSpanningTree;
-import BFS.HasCycle;
-import BFS.IsConnected;
-import BFS.PathExists;
+import BFS.*;
 
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -141,7 +138,8 @@ public class Graph {
 		return -1;
 	}
 	public int shortestPathLength(Vertex u, Vertex v){
-		return -1;
+		ShortestPathLength shortestPathLength= new ShortestPathLength(this);
+		return shortestPathLength.getLevel(u,v);
 	}
 
 	public List<Graph> connectedComponents() {

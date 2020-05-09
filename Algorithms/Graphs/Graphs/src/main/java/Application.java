@@ -30,7 +30,7 @@ public class Application {
 		boolean found2 = g.pathExists(new Vertex("A"), new Vertex("C"));
 		System.out.println(found1);
 		System.out.println(found2);
-
+		System.out.println("*******************");
 		boolean isConnected = g.isConnected();
 		System.out.println(isConnected);
 
@@ -38,7 +38,7 @@ public class Application {
 		System.out.println(hasCycle);
 
 		System.out.println(g);
-		System.out.println(g.shortestPathLength(new Vertex("A"), new Vertex("E")));
+		System.out.println("Shortest path length"+g.shortestPathLength(new Vertex("A"), new Vertex("G")));
 
 //		boolean isSimpleCycle = g.isSimpleCycle();
 //		System.out.println(isSimpleCycle);
