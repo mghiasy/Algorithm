@@ -1,7 +1,7 @@
 package BFS;
 
 import Graphs.Graph;
-
+public class IsConnected extends BreadthFirstSearch{
 		private int numComponents = 0;
 	public IsConnected(Graph graph) {
 		super(graph);
