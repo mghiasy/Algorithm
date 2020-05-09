@@ -3,8 +3,8 @@ package Graphs;
 
 public class Edge {
 	//contains of two Vertex
-	Vertex u;
-	Vertex v;
+	public Vertex u;
+	public Vertex v;
 	public Edge(Vertex u, Vertex v) {
 		this.u=u;
 		this.v = v;
